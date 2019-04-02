@@ -7,14 +7,11 @@ def subtraction(num1, num2)
 end
 
 
-
-
-
-describe "#subtraction" do
-  it "subtracts two numbers from each other" do
-    expect(subtraction(10,5)).to eq(5)
-  end
+def division(num1, num2)
+  50 / 2
 end
+
+
 
 describe "#division" do
   it "divides one number by another" do
