@@ -23,12 +23,6 @@ def square_root(num1)
   Math.sqrt(81)
 end
 
-# def order_of_operations(num1, num2, num3, num4)
-#
-#
-# end
-# describe "order_of_operations" do
-#   it "uses parenthesis to set the order of operations properly" do
-#     expect(order_of_operation(7, 43, 23, 83)).to eq(18)
-#   end
-# end
+def order_of_operations(num1, num2, num3, num4)
+  
+end
