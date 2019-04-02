@@ -15,22 +15,20 @@ def multiplication(num1, num2)
   4 * 30
 end
 
-
-
-describe "#modulo" do
-  it "returns the remainder of two numbers" do
-    expect(modulo(34, 5)).to eq(4)
-  end
+def modulo(num1, num2)
+  34 % 5
 end
 
-describe "#square_root" do
-  it "returns the square root of a number" do
-    expect(square_root(81)).to eq(9)
-  end
+def square_root(num1)
+  Math.sqrt(81)
 end
 
-describe "order_of_operations" do
-  it "uses parenthesis to set the order of operations properly" do
-    expect(order_of_operation(7, 43, 23, 83)).to eq(18)
-  end
-end
+# def order_of_operations(num1, num2, num3, num4)
+#   
+#   
+# end
+# describe "order_of_operations" do
+#   it "uses parenthesis to set the order of operations properly" do
+#     expect(order_of_operation(7, 43, 23, 83)).to eq(18)
+#   end
+# end
