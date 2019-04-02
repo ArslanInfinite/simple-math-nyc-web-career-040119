@@ -24,5 +24,5 @@ def square_root(num1)
 end
 
 def order_of_operations(num1, num2, num3, num4)
-  
+
 end
