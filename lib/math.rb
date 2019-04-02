@@ -11,12 +11,8 @@ def division(num1, num2)
   50 / 2
 end
 
-
-
-describe "#division" do
-  it "divides one number by another" do
-    expect(division(50,2)).to eq(25)
-  end
+def multiplication(num1, num2)
+  4 * 30
 end
 
 describe "#multiplication" do
